@@ -1,30 +1,10 @@
 # proyectos-laravel
 Proyecto Final del curso - Introducción a PHP y Laravel
 
-```markdown
-# gestion-proyectos-laravel
-
-Sistema CRUD minimalista para la gestión de proyectos.  
-Stack: Laravel 11, MySQL 8, Blade, Bootstrap 5 y barryvdh/laravel-dompdf (reportes PDF).
-
----
-
-## Requisitos previos
-
-- PHP 8.2+  
-- Composer  
-- MySQL 8  
-- Node.js & npm (para compilación opcional de assets)  
-
----
-
-## Instalación paso a paso
-
 1. **Clonar el repositorio**
    ```bash
    git clone https://github.com/tu-usuario/gestion-proyectos-laravel.git
    cd gestion-proyectos-laravel
-   ```
 
 2. **Instalar dependencias PHP**
    ```bash
