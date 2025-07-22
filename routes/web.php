@@ -1,15 +1,21 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProyectoController;
 
-Route::get('/proyecto', function () {
-    return view('proyecto');
-});
+// Ruta para la página principal del proyecto
+Route::get('/proyecto', [ProyectoController::class, 'index'])->name('proyecto');
 
-Route::get('/listaProyectos', function () {
-    return view('listaProyecto');
-});
+// Ruta para la lista de proyectos que usará el controlador
+Route::get('/listaProyectos', [ProyectoController::class, 'listaProyectos'])->name('listaProyectos');
 
-Route::post('/proyecto/dataProyecto', [App\Http\Controllers\ProyectoController::class, 'dataProyecto'])->name('proyecto.dataProyecto');
+// Ruta para el formulario de creación de proyecto
+Route::post('/proyecto/dataProyecto', [ProyectoController::class, 'dataProyecto'])->name('proyecto.dataProyecto');
+
+// Borrar el proyecto
+Route::delete('/proyecto/borrar/{id}', [ProyectoController::class, 'borrar'])->name('proyecto.borrar'); 
+
+// Generar informe
+Route::get('/proyecto/generarInforme/{id}', [ProyectoController::class, 'generarInforme'])->name('proyecto.generarInforme'); 
 
 

@@ -8,19 +8,20 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gray-900 text-white min-h-screen py-8">
-
-    <nav class="bg-gray-800 py-4">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center">
-                <div class="flex items-center space-x-4">
-                    <a href="{{ route('proyecto.listaProyectos') }}" class="text-white text-lg font-semibold hover:bg-gray-700 py-2 px-4 rounded-md transition">Lista de Proyectos</a>
-                    <a href="{{ route('proyecto.dataProyecto') }}" class="text-white text-lg font-semibold hover:bg-gray-700 py-2 px-4 rounded-md transition">Crear Proyecto</a>
-                </div>
+<nav class="bg-gray-800 py-4">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center">
+            <div class="flex items-center space-x-4">
+                <a href="{{ route('proyecto') }}" class="text-white text-lg font-semibold hover:bg-gray-700 py-2 px-4 rounded-md transition">Crear Projecto</a>
+                <a href="{{ route('listaProyectos') }}" class="text-white text-lg font-semibold hover:bg-gray-700 py-2 px-4 rounded-md transition">Proyectos</a>
             </div>
         </div>
-    </nav>
+    </div>
+</nav>
 
+<br>
+
+<body class="bg-gray-900 text-white min-h-screen py-8">
     <!-- Formulariio para agregar Proyectos -->
     <div class="max-w-2xl mx-auto bg-gray-800 rounded-lg shadow-md p-8">
         <div class="mb-8">
