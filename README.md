@@ -98,7 +98,6 @@ Stack: Laravel 11, MySQL 8, Blade, Bootstrap 5 y barryvdh/laravel-dompdf (report
 
 ## Reporte PDF
 
-- Ruta: `/proyectos/pdf`  
 - Generado con `barryvdh/laravel-dompdf`.  
 - Formato oficial:  
   ```
