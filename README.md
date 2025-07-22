@@ -50,7 +50,7 @@ Proyecto Final del curso - Introducción a PHP y Laravel
    ```bash
    php artisan serve
    ```
-   Visita http://localhost:8000/proyectos
+   Visita http://localhost:8000/proyecto
 
 ---
 
@@ -70,7 +70,7 @@ Proyecto Final del curso - Introducción a PHP y Laravel
 - Modelo: `app/Models/Proyecto.php`  
 - Controlador: `app/Http/Controllers/ProyectoController.php`  
 - Rutas: `routes/web.php`  
-- Vistas: `resources/views/proyectos/*.blade.php`  
+- Vistas: `resources/views/proyecto/*.blade.php` y `resources/views/listaProyectos/*.blade.php` 
 - Factory: `database/factories/ProyectoFactory.php`  
 - Seeder: `database/seeders/ProyectoSeeder.php`  
 
