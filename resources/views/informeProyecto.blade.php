@@ -54,6 +54,6 @@
     </div>
     <br><br>
     <p style="text-align: center;">Muchas gracias por los recursos y todo la información dada en este curso, fue de mucha utilidad para mi aprendizaje.</p>
-    <p style="text-align: center;">https://github.com/DavidParrillas/proyectos-laravel</p>
+    <p style="text-align: center;">https://github.com/DavidParrillas/proyectos-laravel.git</p>
 </body>
 </html>
