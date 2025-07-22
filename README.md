@@ -1,4 +1,4 @@
-# proyectos-laravel
+# gestion-proyectos-laravel
 Proyecto Final del curso - Introducción a PHP y Laravel
 
 1. **Clonar el repositorio**
